@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/zoawfrrn/repositories/Miss-Zuali
+    - /bin/cp -R * $DEPLOYPATH
+  git remote add server ssh://zoawfrrn@zoawi.in:21098/home/zoawfrrn/repositories/Miss-Zuali
